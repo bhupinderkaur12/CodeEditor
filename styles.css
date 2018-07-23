@@ -1,0 +1,55 @@
+   body {
+        background-image: url("https://s-media-cache-ak0.pinimg.com/564x/cc/83/1e/cc831e0142b28f2967bbaca05e6da49d.jpg");
+        font-family: Comic Sans, Comic Sans MS, cursive;
+    }
+    
+    #container {
+        width: 700px;
+        margin: 0 auto;
+    }
+    
+    #chatWindow {
+        height: 300px;
+    }
+   
+    #mainWrapper {
+        display: none;
+    }
+    
+    #chatWrapper {
+        float: left;
+        border: 1px #ccc solid;
+        border-radius: 10px;
+        background: #F6F5F3;
+        padding: 10px;
+        opacity: 0.95;
+    }
+    
+    #userWrapper {
+        float: left;
+        border: 1px #ccc solid;
+        border-radius: 10px;
+        background: #f4f4f4;
+        padding: 10px;
+        margin-left: 20px;
+        width: 150px;
+        max-height: 200px;
+        opacity: 0.95;
+    }
+    
+    #namesWrapper {
+        margin: 40px auto;
+        float: left;
+        border: 1px #ccc solid;
+        border-radius: 10px;
+        opacity: 1.2;
+        background: #efdceb;
+        padding: 10px;
+        margin-left: 20px;
+        opacity: 0.95;
+    }
+    
+    input {
+        height: 30px;
+        border: 1px solid #ccc;
+    }
